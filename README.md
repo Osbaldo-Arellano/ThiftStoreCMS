@@ -1,1 +1,1 @@
-Headless CMS for [text](https://github.com/Osbaldo-Arellano/ThriftHaus)
+Headless CMS for [ThriftHaus](https://github.com/Osbaldo-Arellano/ThriftHaus)
