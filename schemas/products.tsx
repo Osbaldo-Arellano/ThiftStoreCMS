@@ -15,7 +15,7 @@ const products = defineType({
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'title',        // Auto-generate from title
+        source: 'title',
         maxLength: 96,
       },
     }),
@@ -34,6 +34,11 @@ const products = defineType({
       name: 'price',
       title: 'Price',
       type: 'number',
+    }),
+    defineField({
+      name: 'productID',
+      title: 'Stripe Checkout ProductID',
+      type: 'text',
     }),
   ],
 })
